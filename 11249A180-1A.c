@@ -1,5 +1,5 @@
-#include<stdio.h>
-int fib(int n){
+#include<stdio.h> 
+ int fib(int n){
   if(n==0)
       return 0;
 else if(n==1)
@@ -9,7 +9,6 @@ else
 }
 int main(){
   int i,n;
-#include <stdio.h>
  printf("Enter the number of terms: ");
     scanf("%d", &n);
 
